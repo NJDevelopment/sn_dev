@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4f787552f016110b9eea85df699b641</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>nwtest</sys_name>
         <sys_overrides/>
         <sys_package display_value="NW Github testing" source="x_663468_nw_github">bbe2b2c12f012110b9eea85df699b6e8</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="NW Github testing">bbe2b2c12f012110b9eea85df699b6e8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b4f787552f016110b9eea85df699b641</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:56:19</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -86,10 +86,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-15 16:55:31</sys_created_on>
         <sys_id>b048cb1d2fcd2110b9eea85df699b67c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NW Github testing">bbe2b2c12f012110b9eea85df699b6e8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:55:32</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b048cb1d2fcd2110b9eea85df699b67c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -100,12 +100,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-15 16:55:32</sys_created_on>
         <sys_id>8548cb552f016110b9eea85df699b690</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:55:32</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:04</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
-  outputs.test = "Hello from Dr. Nick"
+  outputs.test = "Hello from Mr. Nick"
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -478,17 +478,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="nwtest">b4f787552f016110b9eea85df699b641</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"11788f552f016110b9eea85df699b6d9","name":"plan","plan_signature":null}}</plan>
-        <snapshot>20788f552f016110b9eea85df699b696</snapshot>
+        <snapshot>ba2bc7192f016110b9eea85df699b6d8</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-15 16:56:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11788f552f016110b9eea85df699b6d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:56:22</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:15</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -574,10 +574,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-15 16:56:18</sys_created_on>
         <sys_id>90788f552f016110b9eea85df699b67b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NW Github testing">bbe2b2c12f012110b9eea85df699b6e8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:56:19</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90788f552f016110b9eea85df699b67b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -588,12 +588,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-15 16:56:19</sys_created_on>
         <sys_id>1c788f552f016110b9eea85df699b685</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-15 16:56:19</sys_updated_on>
+        <sys_updated_on>2023-02-15 17:08:13</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
-  outputs.test = "Hello from Dr. Nick"
+  outputs.test = "Hello from Mr. Nick"
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
